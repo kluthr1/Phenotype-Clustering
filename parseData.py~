@@ -1,0 +1,368 @@
+from getData import *
+
+#HELPER METHODS
+
+#returns if common data exist between two list
+def common_data(list1, list2): 
+    result = False
+  
+    # traverse in the 1st list 
+    for x in list1: 
+  
+        # traverse in the 2nd list 
+        for y in list2: 
+    
+            # if one common 
+            if x == y: 
+                result = True
+                return result  
+                  
+    return result
+
+def commonDataWithRelations(list1, list2): 
+    data = []
+  
+    # traverse in the 1st list 
+    for x in list1: 
+  
+        # traverse in the 2nd list 
+        for y in list2: 
+    
+            # if one common 
+            if x[1] == y[1]: 
+                result = True
+                return result  
+                  
+    return result
+
+#returns all unique elements in a list
+def uncommons(dataA, new):
+    for x in list(new):
+        if x in dataA:
+            new.remove(x)
+    return new
+
+#determines if two papers are related by         
+def relatedByPapers(num1, num2, numC):
+    minNum = min(num1, num2)
+    if minNum > 100:
+        if (numC/1.0)/minNum > .98:
+            return True
+    if minNum > 20:
+        if minNum == numC:
+            return True
+    return False
+
+
+#Determines if the two diseases have similar names
+def relatedByName(name1, name2):
+    stringA = re.findall(r"[\w']+", name1.lower())
+    stringB = re.findall(r"[\w']+", name2.lower())
+    commons = list(set(stringB).intersection(stringA))
+    ignores = ["disorder", "disease", "symptom", "syndrome", "carcinoma" , "disability", "gene", "primary","deficiency", "maligant", "of", "type", "congenital", "abnormality","diseases", "familiar","somatic" ]
+
+    for x in list(commons):
+        for y in ignores:
+            if x == y:
+                commons.remove(x)
+    
+    if "without" in stringB:
+        for x in list(commons):
+            if(stringB.index(x) > stringB.index("without")):
+               commons.remove(x)
+
+    if len(commons)>0:
+        return len(commons)
+    
+    return 0
+
+
+#Determines if two cuis are related by IDs
+def relatedByIDs(cui1, cui2):
+    dataA = getIDs(cui1)
+    dataB = getIDs(cui2)
+    if common_data(dataA, dataB):
+        return True
+    return False
+    
+
+def contained(cui1, cui2, dataA, dataB):
+    if dataA is not None:
+        if cui2 in dataA:
+            return True
+
+        
+    if dataB is not None:
+        if cui1 in dataB:
+            return True
+    return False
+
+
+
+def extendData(dataA):
+    index = 0
+    if dataA is not None:
+        for x in list(dataA):
+            index +=1
+            newObjects = uncommons(dataA, getRelations(x))
+            if(newObjects is not None):
+                for y in newObjects:
+                    if y not in dataA:
+                        dataA.append(y)
+                        
+                        
+    return dataA
+        
+def extendDataWithRelations(dataA):
+    index = 0
+    if dataA is not None:
+        for x in list(dataA):
+            index +=1
+            newObjects = uncommons(dataA,getRelationsWithType(x))
+            if(newObjects is not None):
+                for y in newObjects:
+                    if y not in dataA:
+                        dataA.append(y)
+                        
+    return dataA
+
+
+def commonIDWithList(data, cui):
+    if data is not None:
+        for x in data:
+            if relatedByIDs(x, cui):
+                return True
+
+    return False
+
+def unCommonPapers(num1, num2, numC):
+    minNum = min(num1, num2)
+    if minNum > 500:
+        if (numC/1.0)/minNum < .01:
+            return True
+    if minNum > 100:
+        if numC == 0:
+            return True
+    return False
+
+
+
+#getRelationsWithType
+def relationTypeAndConfidence(cui1, cui2):
+    dataA = getRelationsWithType(cui1)
+    dataB = getRelationsWithType(cui2)
+    checkNext = True
+    relation = ""
+    confidence  = 10
+    strongRelations = ["SY","RL", "RQ", "RN"]
+    neutralRelations = ["CHD", "PAR", "RB", "SIB"]
+    weakRelations = ["AQ", "DEL", "QB", "RU", "RO"]
+    if dataA is not None:
+        for x in dataA:
+            if cui2 == x[1]:
+                relation = x[0]
+                checkNext = False
+    else:    
+        if dataB is not None:
+            for x in dataB:
+                if cui2 == x[1]:
+                    relation = x[0]
+                    checkNext = False
+                                    
+    if(checkNext = False):
+        confidence = 3
+        for x in strongRelations:
+            if x == relation:
+                confidence = 1
+                return [relation, confidence]
+        for x in neutralRelations:
+            if x == relation:
+                confidence = 2
+                return [relation, confidence]    
+        return[relation, confidence]
+
+    #SECONDARY CONFIDENCES
+
+    if (checkNext):
+       dataA =  extendDataWithRelations(dataA)
+       dataB =  extendDataWithRelations(dataB)
+       if dataA is not None:
+        for x in dataA:
+            if cui2 == x[1]:
+                relation = x[0]
+                checkNext = False
+        else:    
+            if dataB is not None:
+                for x in dataB:
+                    if cui2 == x[1]:
+                        relation = x[0]
+                        checkNext = False
+    
+                                     
+        if(checkNext = False):
+            confidence = 6
+            for x in strongRelations:
+                if x == relation:
+                    confidence = 4
+                    return [relation + "2", confidence]
+            for x in neutralRelations:
+                if x == relation:
+                    confidence = 5
+                    return [relation + "2", confidence]    
+            return[relation, confidence]
+        if 
+
+
+
+#ORIGINAL GET CONFIDENCE METHOD
+def getConfidence(row):
+    cui1 = row[0]
+    cui2 = row[1]
+    name1 = row[2]
+    name2 = row[3]
+    num1 = int(row[4])
+    num2 = int(row[5])
+    numC = int(row[6])
+
+    decision = [0,3]
+    
+    relatedPapers =  relatedByPapers(num1, num2, numC)
+    namesC = relatedByName(name1, name2)
+    relatedByRelations = False
+    relatedIDs = relatedByIDs(cui1, cui2) 
+    directlyRelated = False
+    commonality = False
+    relationsIDs = False
+    unlike = unCommonPapers(num1, num2, numC)
+    
+    dataA = getRelations(cui1)
+    dataB = getRelations(cui2)
+    checkNext = True
+    directlyRelated = contained(cui1, cui2, dataA, dataB)
+    checkNext = not directlyRelated and not relatedIDs
+
+    if(checkNext):
+        dataA = extendData(dataA)
+        dataB = extendData(dataB)
+        relatedByRelations = contained(cui1, cui2, dataA, dataB)
+        relationsIDs = commonIDWithList(cui1, dataB) or commonIDWithList(cui2, dataA)
+        checkNext = not relatedByRelations and not relationsIDs
+    if (checkNext):
+        if( dataA is not None and dataB is not None):
+            commonality = common_data(dataA, dataB)
+
+
+    if relatedIDs or relatedPapers or directlyRelated:
+        return [0,1]
+ 
+    if namesC >= 1:
+        if relatedByRelations:
+            return [0,2]
+        if relationsIDs:
+            return [0,1]
+        if namesC > 1:
+            if commonality:
+                return [0,1]
+            return [0,2]
+        if namesC == 1:
+            if commonality:
+                return [0,2]
+            return [0,3]
+
+
+    if relatedByRelations:
+        return [0,3]
+    if relationsIDs:
+        return [0,2]
+    if commonality:
+        return [1,3]
+    if unlike:
+        return [1,1]
+    return [1,2]
+
+
+
+
+
+
+
+
+
+def ioDecisionTree(row, iostream):
+
+    
+    cui1 = row[0]
+    cui2 = row[1]
+    name1 = row[2]
+    name2 = row[3]
+    num1 = int(row[4])
+    num2 = int(row[5])
+    numC = int(row[6])
+    true = "1\t"
+    false = "0\t"
+    
+    if relatedByPapers(num1, num2, numC):
+        print "Related By Papers"
+        iostream.write(true)
+    else:
+        iostream.write(false)
+    
+    if relatedByName(name1, name2):
+        print "Related By Name"
+        iostream.write(true)
+    else:
+        iostream.write(false)
+
+    dataA = getRelations(cui1)
+    dataB = getRelations(cui2)
+    checkNext = False
+    
+    if relatedByIDs(cui1, cui2):
+        print "Related By IDs"
+        checkNext = True
+        iostream.write(true)
+    else:
+        iostream.write(false)
+
+    if contained(cui1, cui2, dataA, dataB):
+        print "Directly Related"
+        checkNext = True
+        iostream.write(true)
+    else:
+        iostream.write(false)
+
+        
+    if not checkNext:    
+        dataA = extendData(dataA)
+        dataB = extendData(dataB)
+
+        if contained(cui1, cui2, dataA, dataB):
+            print "Related By Relations"
+            checkNext = True
+            iostream.write(true)
+        else:
+            iostream.write(false)
+
+            
+        if commonIDWithList(cui1, dataB):
+            print "Related By Relations IDs"
+            iostream.write(true)
+        elif commonIDWithList(cui2, dataA):
+            print "Related By Relations IDs" 
+            iostream.write(true)
+        else:
+            iostream.write(false)
+
+          
+    if not checkNext:
+        if( dataA is not None and dataB is not None):
+            if common_data(dataA, dataB):
+                print "Commonaility in Relations Relations"
+                iostream.write(true)
+            else:
+                iostream.write(false)
+            
+    return 0
+            
+            
+

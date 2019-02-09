@@ -1,0 +1,251 @@
+CUI1	CUI2	Disease1	Disease2	PubMed1	PubMed2	Common_PubMed_IDs	Level_of_similarity	Level_of_confidence
+C0011847	C0011860	Diabetes	"Diabetes Mellitus, Non-Insulin-Dependent"	600000	142114	142114	1	1
+C0030567	C0398794	Parkinson Disease	Hypopigmentation-immunodeficiency disease	73702	600000	36890	0	2
+C0030567	C1846862	Parkinson Disease	PARKINSON DISEASE 8	73702	10370	10370	1	1
+C0018051	C0019269	Gonadal Dysgenesis	Hermaphroditism	13319	42981	10222	1	3
+C0018798	C0040761	Congenital Heart Defects	Transposition of Great Vessels	147610	7827	7642	1	2
+C0346429	C2239176	Multiple malignancy	Liver carcinoma	215327	130028	7504	0	2
+C0007115	C0238462	Malignant neoplasm of thyroid	Medullary carcinoma of thyroid	67377	7190	6592	1	2
+C0010674	C0746102	Cystic Fibrosis	Chronic lung disease	49380	127813	6518	0	1
+C0029464	C0432272	Osteosclerosis	Van Buchem disease	6048	28959	5419	0	1
+C0543888	C3714756	Epileptic encephalopathy	Intellectual Disability	113136	97825	4559	0	3
+C0795907	C4016770	CONOTRUNCAL ANOMALY FACE SYNDROME	CONOTRUNCAL ANOMALY FACE SYNDROME/VELOCARDIOFACIAL SYNDROME	2576	2572	2572	1	1
+C0035372	C1136249	Rett Syndrome	"Mental Retardation, X-Linked"	3467	14636	2434	1	3
+C0018798	C0020626	Congenital Heart Defects	Hypoparathyroidism	147610	8473	2131	0	1
+C0268301	C3489793	Reifenstein Syndrome	"46,XY Sex Reversal 3"	2462	4064	2010	0	1
+C0013336	C0857439	Dwarfism	Pituitary hormone deficiency	17277	18247	1629	0	1
+C0000768	C0009402	Congenital Abnormality	Colorectal Carcinoma	591498	201452	1491	0	1
+C0000768	C0035334	Congenital Abnormality	Retinitis Pigmentosa	591498	10816	1408	0	1
+C0027726	C0403397	Nephrotic Syndrome	Steroid-resistant nephrotic syndrome	21763	1278	1278	1	2
+C0020443	C0241889	Hypercholesterolemia	Family history	42411	117019	1196	0	2
+C0152200	C1849792	Achromatopsia	Achromatopsia 3	4390	1011	1011	1	1
+C0018799	C0030567	Heart Diseases	Parkinson Disease	600000	73702	999	0	3
+C0241889	C0494463	Family history	"Alzheimer Disease, Late Onset"	117019	98242	913	0	2
+C0733682	C3536984	"Hypophosphatemic Rickets, X-Linked Dominant"	"Vitamin D-Resistant Rickets, X-Linked"	889	889	889	1	1
+C0241889	C4229681	Family history	Increased risk of colorectal cancer	117019	11873	870	0	1
+C0149871	C0398625	Deep Vein Thrombosis	Protein C Deficiency	82283	1973	777	1	3
+C0029456	C0038015	Osteoporosis	Spondyloepiphyseal Dysplasia	81415	29077	769	0	2
+C0206062	C0476273	"Lung Diseases, Interstitial"	Respiratory distress	60977	51307	727	1	3
+C0006142	C2674950	Malignant neoplasm of breast	"LUNG CANCER, SUSCEPTIBILITY TO"	309961	5827	651	0	2
+C0002878	C0271990	"Anemia, Hemolytic"	delta-Thalassemia	74976	660	593	1	3
+C0000768	C0014859	Congenital Abnormality	Esophageal Neoplasms	591498	53754	415	0	1
+C0549473	C1833921	Thyroid carcinoma	Familial medullary thyroid carcinoma	68555	398	398	1	1
+C0006142	C0035412	Malignant neoplasm of breast	Rhabdomyosarcoma	309961	13631	393	0	3
+C0268318	C3554241	Cholestasis of pregnancy	"CHOLESTASIS, INTRAHEPATIC, OF PREGNANCY 3"	2082	381	381	1	2
+C1136249	C1845333	"Mental Retardation, X-Linked"	"Mental Retardation, X-Linked 45"	14636	380	380	1	1
+C0029422	C0039743	Osteochondrodysplasias	Thanatophoric Dysplasia	28883	502	380	0	1
+C0150312	C0158646	Present	Cleft palate with cleft lip	600000	15183	376	0	1
+C0035334	C3714756	Retinitis Pigmentosa	Intellectual Disability	10816	97825	354	0	2
+C0011860	C0346429	"Diabetes Mellitus, Non-Insulin-Dependent"	Multiple malignancy	142114	215327	354	0	1
+C0007115	C0079744	Malignant neoplasm of thyroid	Diffuse Large B-Cell Lymphoma	67377	24275	329	0	3
+C0009402	C1333991	Colorectal Carcinoma	Hereditary Non-Polyposis Colon Cancer Type 2	201452	516	324	0	3
+C0035334	C0339527	Retinitis Pigmentosa	Leber Congenital Amaurosis	10816	931	321	0	2
+C0004096	C0011860	Asthma	"Diabetes Mellitus, Non-Insulin-Dependent"	175845	142114	320	0	2
+C0011860	C4016103	"Diabetes Mellitus, Non-Insulin-Dependent"	"HYPOGONADOTROPIC HYPOGONADISM 2 WITH OR WITHOUT ANOSMIA, SUSCEPTIBILITY TO"	142114	5965	313	0	1
+C0023467	C0221013	"Leukemia, Myelocytic, Acute"	"Mastocytosis, Systemic"	73162	2170	301	1	2
+C0000768	C0001768	Congenital Abnormality	Agammaglobulinemia	591498	7575	283	0	2
+C0011854	C0242383	"Diabetes Mellitus, Insulin-Dependent"	Age related macular degeneration	92179	29421	280	0	2
+C0027819	C2751682	Neuroblastoma	"NEUROBLASTOMA, SUSCEPTIBILITY TO, 2"	39783	278	278	1	1
+C0038015	C0241889	Spondyloepiphyseal Dysplasia	Family history	29077	117019	274	0	1
+C0039373	C0751490	Tay-Sachs Disease	Infantile Sandhoff Disease	1787	711	271	1	3
+C0011195	C3714756	Dejerine-Sottas Disease	Intellectual Disability	6822	97825	257	0	2
+C0346429	C1336839	Multiple malignancy	Type 1 Papillary Renal Cell Carcinoma	215327	2737	252	0	3
+C0035334	C3150808	Retinitis Pigmentosa	RETINITIS PIGMENTOSA 55	10816	249	249	1	1
+C0000768	C0002768	Congenital Abnormality	Congenital Pain Insensitivity	591498	653	243	1	3
+C0002312	C0271990	alpha-Thalassemia	delta-Thalassemia	7139	660	219	0	3
+C0035309	C0206062	Retinal Diseases	"Lung Diseases, Interstitial"	134253	60977	211	0	1
+C0026705	C0086647	Mucopolysaccharidosis II	Mucopolysaccharidosis Type IIIA	1323	889	209	1	3
+C0031511	C0206734	Pheochromocytoma	Hemangioblastoma	21435	2166	197	0	1
+C0162566	C0268323	Porphyria Cutanea Tarda	Familial porphyria cutanea tarda	2170	197	197	1	1
+C2675487	C3714756	"Mental Retardation, Autosomal Dominant 4"	Intellectual Disability	299	97825	190	1	3
+C0007193	C0021051	"Cardiomyopathy, Dilated"	Immunologic Deficiency Syndromes	21868	308948	184	0	3
+C0007097	C0085390	Carcinoma	Li-Fraumeni Syndrome	600000	1216	180	0	2
+C0029422	C0410529	Osteochondrodysplasias	Hypochondroplasia	28883	271	177	1	3
+C0027746	C3496228	Nerve Degeneration	"Leukodystrophy, Dysmyelinating, And Spastic Paraparesis With Or Without Dystonia"	37741	18391	172	0	2
+C1833970	C1860985	"COLORECTAL CANCER, SOMATIC"	"GASTRIC CANCER, SOMATIC"	2214	677	169	1	2
+C0023467	C4016397	"Leukemia, Myelocytic, Acute"	"CHRONIC MYELOID LEUKEMIA, RESISTANT TO IMATINIB"	73162	1436	156	1	2
+C0015523	C3203356	Factor XI Deficiency	Factor II deficiency	1316	6662	145	1	2
+C0020443	C0040038	Hypercholesterolemia	Thromboembolism	42411	70934	144	0	1
+C0025362	C1839082	Mental Retardation	"MENTAL RETARDATION, X-LINKED 89"	112283	143	141	1	1
+C0019569	C3553943	Hirschsprung Disease	"T-CELL IMMUNODEFICIENCY, RECURRENT INFECTIONS, AND AUTOIMMUNITY WITH OR WITHOUT CARDIAC MALFORMATIONS"	4704	168719	139	0	1
+C0038015	C0410480	Spondyloepiphyseal Dysplasia	Avascular Necrosis of Femur Head	29077	8657	137	0	1
+C0751435	C2673535	Hyperphenylalaninaemia	"DYSTONIA, DOPA-RESPONSIVE, WITH OR WITHOUT HYPERPHENYLALANINEMIA, AUTOSOMAL RECESSIVE"	6755	238	137	0	2
+C0751435	C2673535	Hyperphenylalaninaemia	"DYSTONIA, DOPA-RESPONSIVE, WITH OR WITHOUT HYPERPHENYLALANINEMIA, AUTOSOMAL RECESSIVE"	6755	238	137	0	2
+C0020676	C1291299	Hypothyroidism	Deficiency of iodide peroxidase	42860	429	134	0	2
+C0018798	C1857586	Congenital Heart Defects	CONOTRUNCAL HEART MALFORMATIONS	147610	133	125	1	2
+C0158981	C0878544	Neonatal diabetes mellitus	Cardiomyopathies	12461	89623	121	0	1
+C0039870	C4016129	Thinness	"LEANNESS, SUSCEPTIBILITY TO"	7166	144	120	0	3
+C0006142	C1168401	Malignant neoplasm of breast	Squamous cell carcinoma of the head and neck	309961	7214	119	0	3
+C0241889	C0398625	Family history	Protein C Deficiency	117019	1973	114	0	2
+C0009952	C0220669	Febrile Convulsions	Familial benign neonatal epilepsy	5067	570	97	0	2
+C0037772	C0205711	Spastic Paraplegia	Pelizaeus-Merzbacher Disease	21054	617	94	0	2
+C0030567	C1851920	Parkinson Disease	Dopa-Responsive Dystonia	73702	488	88	1	3
+C0026850	C0079298	Muscular Dystrophy	Epidermolysis Bullosa Simplex	33784	826	83	0	2
+C1839606	C1839874	Low-molecular-weight proteinuria	Low Molecular Weight Proteinuria with Hypercalciuria and Nephrocalcinosis	720	81	81	1	1
+C0018099	C3536827	Gout	Glycogenosis with glucoaminophosphaturia	17120	6868	68	0	3
+C0238261	C4016108	Lymphedema praecox	"LYMPHEDEMA, HEREDITARY, I"	59	13495	59	1	2
+C0006142	C0020615	Malignant neoplasm of breast	Hypoglycemia	309961	45772	56	0	2
+C0015503	C0149871	Factor VII Deficiency	Deep Vein Thrombosis	1829	82283	53	0	2
+C0020676	C0022735	Hypothyroidism	Klinefelter Syndrome	42860	4232	51	0	2
+C0039685	C0241889	Tetralogy of Fallot	Family history	11426	117019	50	0	2
+C0021364	C0025322	Male infertility	Premature Menopause	45629	1866	50	0	2
+C0029925	C0238462	Ovarian Carcinoma	Medullary carcinoma of thyroid	34444	7190	47	0	3
+C0014547	C0027794	"Epilepsies, Partial"	Neural Tube Defects	22861	29820	47	0	2
+C0014544	C0027126	Epilepsy	Myotonic Dystrophy	140074	6483	44	0	2
+C1969389	C4016282	"NONSMALL CELL LUNG CANCER, SOMATIC"	"BREAST CANCER, SOMATIC"	653	2539	42	0	1
+C0021655	C0220989	Insulin Resistance	Acquired partial lipodystrophy	113459	168	42	1	2
+C0085612	C0410189	Ventricular arrhythmia	"Muscular Dystrophy, Emery-Dreifuss"	83880	721	42	0	2
+C0007194	C0011854	Hypertrophic Cardiomyopathy	"Diabetes Mellitus, Insulin-Dependent"	18881	92179	41	0	2
+C0238462	C1833930	Medullary carcinoma of thyroid	"PHEOCHROMOCYTOMA, SOMATIC"	7190	236	40	0	2
+C0238462	C1833930	Medullary carcinoma of thyroid	"PHEOCHROMOCYTOMA, SOMATIC"	7190	236	40	0	3
+C0751071	C1858680	Familial Dementia	Familial encephalopathy with neuroserpin inclusion bodies	188254	51	39	0	2
+C0007194	C0011860	Hypertrophic Cardiomyopathy	"Diabetes Mellitus, Non-Insulin-Dependent"	18881	142114	38	0	1
+C0020459	C3279695	Hyperinsulinism	"ATRIAL FIBRILLATION, FAMILIAL, 12"	81647	14029	35	0	2
+C0007115	C0024899	Malignant neoplasm of thyroid	Mastocytosis	67377	6995	32	0	3
+C0002395	C0013264	Alzheimer's Disease	"Muscular Dystrophy, Duchenne"	139725	10808	32	0	1
+C0039445	C3203102	Hereditary hemorrhagic telangiectasia	Idiopathic pulmonary arterial hypertension	3641	3570	32	0	2
+C2239176	C4016033	Liver carcinoma	"NONSMALL CELL LUNG CANCER, RESISTANCE TO TYROSINE KINASE INHIBITOR IN"	130028	983	30	0	2
+C1833970	C1969388	"COLORECTAL CANCER, SOMATIC"	"HEPATOCELLULAR CARCINOMA, SOMATIC"	2214	491	30	0	2
+C0039685	C1956125	Tetralogy of Fallot	Alagille Syndrome 1	11426	886	30	0	1
+C0006142	C0007193	Malignant neoplasm of breast	"Cardiomyopathy, Dilated"	309961	21868	30	1	2
+C0040034	C0162872	Thrombocytopenia	"Aortic Aneurysm, Thoracic"	70120	19227	25	1	3
+C0035334	C0339510	Retinitis Pigmentosa	Vitelliform Macular Dystrophy	10816	497	25	0	2
+C0340970	C1859966	Congenital neutropenia	"Neutropenia, Severe Congenital, Autosomal Dominant 1"	680	24	24	0	2
+C0158646	C1563720	Cleft palate with cleft lip	Kallmann Syndrome 2	15183	855	24	1	1
+C0085584	C1836635	Encephalopathies	Loeys-Dietz Aortic Aneurysm Syndrome	600000	436	23	1	2
+C4017453	C4311029	HEMOGLOBIN SINAI PHENOTYPE	HEMOGLOBIN YUKUHASHI-2	23	196933	23	0	2
+C0241889	C4016054	Family history	"MARFAN SYNDROME, NEONATAL"	117019	429	21	0	1
+C0027707	C0035334	"Nephritis, Interstitial"	Retinitis Pigmentosa	22264	10816	20	0	2
+C0030305	C0268318	Pancreatitis	Cholestasis of pregnancy	65210	2082	19	0	1
+C0020074	C0031511	HSAN Type IV	Pheochromocytoma	2026	21435	19	0	2
+C0001733	C0398625	Afibrinogenemia	Protein C Deficiency	2381	1973	16	0	2
+C0079541	C3489529	Holoprosencephaly	"Tooth Agenesis, Familial"	2050	3678	16	0	2
+C0010278	C0235833	Craniosynostosis	Congenital diaphragmatic hernia	6837	6513	14	0	2
+C0010674	C0029925	Cystic Fibrosis	Ovarian Carcinoma	49380	34444	14	0	2
+C0751436	C1851920	"Hyperphenylalaninemia, Non-Phenylketonuric"	Dopa-Responsive Dystonia	6681	488	14	0	2
+C0029925	C1851162	Ovarian Carcinoma	"BLADDER CANCER, SOMATIC"	34444	398	13	0	2
+C0007196	C1860752	Restrictive cardiomyopathy	"CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 7"	1984	232	11	1	2
+C0037769	C0079541	West Syndrome	Holoprosencephaly	16172	2050	11	0	2
+C0024899	C0085110	Mastocytosis	Severe Combined Immunodeficiency	6995	7990	10	0	3
+C0000768	C1838437	Congenital Abnormality	"VENOUS MALFORMATIONS, MULTIPLE CUTANEOUS AND MUCOSAL"	591498	15	10	0	3
+C0158981	C0854723	Neonatal diabetes mellitus	Retinal Dystrophies	12461	9449	9	0	1
+C0265252	C0796237	Coffin-Lowry syndrome	"Mental Retardation, X-Linked 30"	226	802	9	0	1
+C0017638	C0206686	Glioma	Adrenocortical carcinoma	87189	3369	8	0	2
+C0036341	C0162809	Schizophrenia	Kallmann Syndrome	134381	855	8	0	1
+C0030567	C2973725	Parkinson Disease	Pulmonary arterial hypertension	73702	19359	8	0	2
+C0079474	C0432321	Hallopeau-Siemens Disease	"Epidermolysis bullosa, pretibial"	1183	8	8	1	1
+C1836635	C3714756	Loeys-Dietz Aortic Aneurysm Syndrome	Intellectual Disability	436	97825	7	0	1
+C1868684	C3151097	"EAR, PATELLA, SHORT STATURE SYNDROME"	MEIER-GORLIN SYNDROME 2	44	6	6	0	1
+C0265234	C3551443	Branchio-Oto-Renal Syndrome	ANTERIOR SEGMENT ANOMALIES WITH OR WITHOUT CATARACT	317	70133	5	0	2
+C0014527	C1567744	Epidermolysis Bullosa	"Alport Syndrome, Autosomal Recessive"	5786	2094	5	0	2
+C0950121	C4228353	Denys-Drash Syndrome	Cardiac malformations	294	168650	5	0	1
+C0007194	C3714934	Hypertrophic Cardiomyopathy	"MYOPATHY, MYOFIBRILLAR, 3"	18881	230	4	1	3
+C0020542	C1867450	Pulmonary Hypertension	"Pseudoxanthoma Elasticum, Incomplete"	59448	1837	4	0	3
+C0162809	C0346300	Kallmann Syndrome	Pituitary carcinoma	855	35065	4	0	1
+C0086543	C0542519	Cataract	Congenital absence of kidney	68182	666	4	0	2
+C0030305	C4272382	Pancreatitis	progressive familial intrahepatic cholestasis type 2	65210	138	4	0	2
+C0002768	C0029422	Congenital Pain Insensitivity	Osteochondrodysplasias	653	28883	3	0	1
+C1833929	C3888239	"THYROID CARCINOMA, SPORADIC MEDULLARY"	"HIRSCHSPRUNG DISEASE, SUSCEPTIBILITY TO, 1"	948	104	3	0	2
+C0694566	C3887645	"Atypical Mycobacterial Infection, Disseminated"	Job Syndrome	10128	2154	3	0	3
+C0079154	C0598226	Congenital Nonbullous Ichthyosiform Erythroderma	Harlequin type ichthyosis	1097	3	3	0	2
+C0268743	C2749604	"Membranoproliferative Glomerulonephritis, Type II"	"HEMOLYTIC UREMIC SYNDROME, ATYPICAL, SUSCEPTIBILITY TO, 1"	3840	43	3	0	1
+C0003076	C0020608	Aniridia	Hypodontia	1493	4163	3	0	2
+C0000889	C0018553	Acanthosis Nigricans	"Hamartoma Syndrome, Multiple"	2320	1768	3	1	2
+C0010674	C3149149	Cystic Fibrosis	COLOSTRUM SECRETION	49380	6521	3	1	2
+C0270612	C1956125	Leukoencephalopathies	Alagille Syndrome 1	29481	886	2	0	2
+C0035334	C0085580	Retinitis Pigmentosa	Essential Hypertension	10816	31557	2	0	1
+C0152441	C3494506	Madelung Deformity	"Pseudohypoparathyroidism, Type Ia"	178	1855	2	0	1
+C0003076	C1852759	Aniridia	Papillorenal syndrome	1493	42	2	0	2
+C1720189	C4073107	Episodic Ataxia	Incomplete congenital stationary night blindness	502	110	2	0	1
+C0267663	C2678346	"Congenital secretory diarrhea, sodium type"	"Diarrhea 3, Secretory Sodium, Congenital, Syndromic"	7	4	1	1	2
+C0152021	C1864722	Congenital heart disease	"Microphthalmia, Cataracts, and Iris Abnormalities"	38751	87	1	1	2
+C0751783	C1850764	Lafora Disease	"EPILEPSY, PROGRESSIVE MYOCLONIC 2B"	485	1	1	1	2
+C1721007	C1840427	"Pachyonychia Congenita, Type 2"	"PALMOPLANTAR KERATODERMA, EPIDERMOLYTIC, WITH KNUCKLE PADS"	450	9	1	1	3
+C0013336	C1969060	Dwarfism	Premature Ovarian Failure 5	17277	1141	1	1	3
+C0020676	C1836706	Hypothyroidism	"Hyperthyroidism, Nonautoimmune"	42860	5	1	1	2
+C0002312	C4284049	alpha-Thalassemia	HEMOGLOBIN BRESCIA PHENOTYPE	7139	2	1	0	2
+C0022340	C0473219	Late-Infantile Neuronal Ceroid Lipfuscinosis	Renal hypouricemia	1984	179	1	0	2
+C0031269	C0235833	Peutz-Jeghers Syndrome	Congenital diaphragmatic hernia	2377	6513	1	0	2
+C0007959	C0018553	Charcot-Marie-Tooth Disease	"Hamartoma Syndrome, Multiple"	4570	1768	1	0	2
+C0033847	C0268318	Pseudoxanthoma Elasticum	Cholestasis of pregnancy	1837	2082	1	0	2
+C0238261	C0265950	Lymphedema praecox	Venous malformation	59	32747	1	0	1
+C1858438	C2751681	"COLORECTAL CANCER, SUSCEPTIBILITY TO"	"NEUROBLASTOMA, SUSCEPTIBILITY TO, 3"	6432	239	1	0	2
+C0019202	C0149841	Hepatolenticular Degeneration	Benign recurrent intrahepatic cholestasis	5625	242	1	0	2
+C4284061	C4311040	Hemoglobin Q (Thailand) phenotype	HEMOGLOBIN KURASHIKI	10	74	1	0	1
+C0079474	C0268335	Hallopeau-Siemens Disease	Ehlers-Danlos syndrome type 1	1183	585	1	0	1
+C0026850	C2750785	Muscular Dystrophy	"MUSCULAR DYSTROPHY, CONGENITAL, LMNA-RELATED"	33784	1	1	0	2
+C0028326	C0039445	Noonan Syndrome	Hereditary hemorrhagic telangiectasia	2113	3641	1	0	2
+C0238198	C1833921	Gastrointestinal Stromal Tumors	Familial medullary thyroid carcinoma	8324	398	1	0	2
+C0017668	C0028860	Focal glomerulosclerosis	Oculocerebrorenal Syndrome	7182	428	1	0	1
+C1832827	C4017635	"DEAFNESS, CHILDHOOD-ONSET NEUROSENSORY, AUTOSOMAL RECESSIVE 8"	FH MAINE PHENOTYPE	0	1	0	1	2
+C0238198	C1563720	Gastrointestinal Stromal Tumors	Kallmann Syndrome 2	8324	855	0	1	2
+C0019243	C4016986	"Angioedemas, Hereditary"	"COMPLEMENT COMPONENT 4, PARTIAL DEFICIENCY OF, DUE TO DYSFUNCTIONAL C1 INHIBITOR"	933	2	0	1	2
+C0035828	C1843140	Romano-Ward Syndrome	"SEIZURES, BENIGN FAMILIAL INFANTILE, 3"	345	570	0	1	2
+C0007194	C0018133	Hypertrophic Cardiomyopathy	Graft-vs-Host Disease	18881	23684	0	1	1
+C0027832	C1366911	Neurofibromatosis 2	Cerebral Cavernous Malformations 1	1810	904	0	1	3
+C0004245	C1828221	Atrioventricular Block	Non dystrophic myotonia	12755	74	0	1	3
+C4016174	C4284062	HEMOGLOBIN YUKUHASHI PHENOTYPE	Hemoglobin J (Mexico) phenotype	0	0	0	0	1
+C1853833	C2239176	"Parkinson Disease 6, Autosomal Recessive Early-Onset"	Liver carcinoma	2	130028	0	0	2
+C0005283	C3889869	beta Thalassemia	HEMOGLOBIN ROSEAU-POINTE A PITRE PHENOTYPE	14284	0	0	0	2
+C1832702	C1851150	"BRACHYDACTYLY, TYPE A2"	"MULTIPLE MYELOMA, SOMATIC"	13	354	0	0	3
+C0011854	C4272382	"Diabetes Mellitus, Insulin-Dependent"	progressive familial intrahepatic cholestasis type 2	92179	138	0	0	2
+C0037772	C1832200	Spastic Paraplegia	Peroxisome biogenesis disorders	21054	219	0	0	1
+C3891132	C4284269	HEMOGLOBIN MOZHAISK PHENOTYPE	HEMOGLOBIN AUCKLAND PHENOTYPE	1	0	0	0	2
+C0035828	C0333463	Romano-Ward Syndrome	Senile Plaques	345	10879	0	0	2
+C2720293	C4017521	"MALARIA, RESISTANCE TO"	HEMOGLOBIN S/O (ARAB) PHENOTYPE	12431	7	0	0	1
+C1828221	C1854488	Non dystrophic myotonia	Spinocerebellar ataxia 13	74	20	0	0	2
+C0238261	C0342278	Lymphedema praecox	"Diabetes Mellitus, Insulin-Resistant, with Acanthosis Nigricans"	59	1	0	0	2
+C0242379	C1836635	Malignant neoplasm of lung	Loeys-Dietz Aortic Aneurysm Syndrome	261819	436	0	0	1
+C0268362	C0403440	Osteogenesis imperfecta type III	Thin basement membrane disease	492	358	0	0	2
+C0018553	C1832529	"Hamartoma Syndrome, Multiple"	HEREDITARY HEMORRHAGIC TELANGIECTASIA-RELATED PULMONARY ARTERIAL HYPERTENSION	1768	3	0	0	2
+C0024899	C0220658	Mastocytosis	Pfeiffer Syndrome	6995	2199	0	0	2
+C0270862	C1832680	Hemiplegic migraine	"CARDIOMYOPATHY, DILATED, 1E"	999	1	0	0	3
+C0028326	C0238261	Noonan Syndrome	Lymphedema praecox	2113	59	0	0	2
+C0010278	C0238462	Craniosynostosis	Medullary carcinoma of thyroid	6837	7190	0	0	1
+C0039445	C4016102	Hereditary hemorrhagic telangiectasia	"HYPOGONADOTROPIC HYPOGONADISM 2 WITH ANOSMIA, SUSCEPTIBILITY TO"	3641	4	0	0	3
+C1832274	C1833308	"Charcot-Marie-Tooth disease, Type 2D"	"NEURONOPATHY, DISTAL HEREDITARY MOTOR, TYPE V"	11	2	0	0	2
+C1833921	C3280042	Familial medullary thyroid carcinoma	RETINITIS PIGMENTOSA 62	398	137	0	0	2
+C0392514	C4016102	Hereditary hemochromatosis	"HYPOGONADOTROPIC HYPOGONADISM 2 WITH ANOSMIA, SUSCEPTIBILITY TO"	9950	4	0	0	2
+C0079583	C4272382	"Ichthyosiform Erythroderma, Congenital"	progressive familial intrahepatic cholestasis type 2	1715	138	0	0	0
+C0023931	C0241908	Lobstein's Disease	"Hematuria, Benign Familial"	5402	26	0	0	1
+C2750747	C3502809	"NIGHT BLINDNESS, CONGENITAL STATIONARY, TYPE 1C"	Generalized Epilepsy with Febrile Seizures Plus	0	218	0	0	1
+C0271695	C0342384	Rabson-Mendenhall Syndrome	Idiopathic hypogonadotropic hypogonadism	214	337	0	0	1
+C1275081	C1843256	Cardio-facio-cutaneous syndrome	IRAK4 Deficiency	248	29	0	0	1
+C0022603	C1858439	Seborrheic keratosis	"CANCER OF MULTIPLE TYPES, SUSCEPTIBILITY TO"	1607	607	0	0	2
+C0028326	C0432217	Noonan Syndrome	Wolcott-Rallison syndrome	2113	91	0	0	1
+C4017461	C4017462	HEMOGLOBIN KNOXVILLE-1 PHENOTYPE	HEMOGLOBIN STANLEYVILLE-I PHENOTYPE	0	3633	0	0	1
+C2675780	C3278138	"EPIDERMOLYSIS BULLOSA PRURIGINOSA, AUTOSOMAL DOMINANT"	FIBROCHONDROGENESIS 1	10	24	0	0	1
+C1838163	C1860909	OSLER-RENDU-WEBER SYNDROME 2	"COLON CANCER, HEREDITARY NONPOLYPOSIS, TYPE 6, SOMATIC"	36	1	0	0	1
+C3889360	C4284253	HEMOGLOBIN GREAT LAKES PHENOTYPE	HEMOGLOBIN PERSPOLIS PHENOTYPE	0	0	0	0	1
+C0015923	C4023735	Fetal Alcohol Syndrome	Lamellar pulverulent cataract	5235	6	0	0	1
+C3889940	C4284044	HEMOGLOBIN J (IRAN) PHENOTYPE	HEMOGLOBIN J PHENOTYPE	0	9	0	0	2
+C1865871	C3711381	"HEMANGIOMA, CAPILLARY INFANTILE"	Hereditary Diffuse Leukoencephalopathy with Spheroids	98	83	0	0	2
+C0009402	C0080024	Colorectal Carcinoma	Piebaldism	201452	334	0	0	2
+C0342384	C1275081	Idiopathic hypogonadotropic hypogonadism	Cardio-facio-cutaneous syndrome	337	248	0	0	1
+C0002768	C0009402	Congenital Pain Insensitivity	Colorectal Carcinoma	653	201452	0	0	2
+C0265269	C1851150	Lacrimoauriculodentodigital syndrome	"MULTIPLE MYELOMA, SOMATIC"	14	354	0	0	2
+C1838647	C4017040	RETINITIS PIGMENTOSA 12	FH LONDON 3 PHENOTYPE	10	23	0	0	2
+C4017466	C4284471	HEMOGLOBIN ZIGUINCHOR PHENOTYPE	HEMOGLOBIN J (ROVIGO) PHENOTYPE	0	0	0	0	1
+C1864952	C3888239	"Hyperinsulinemic Hypoglycemia, Familial, 5"	"HIRSCHSPRUNG DISEASE, SUSCEPTIBILITY TO, 1"	47	104	0	0	1
+C3889356	C3890753	HEMOGLOBIN SEALY PHENOTYPE	HEMOGLOBIN KURDISTAN PHENOTYPE	0	0	0	0	2
+C0221026	C3463992	X-linked agammaglobulinemia	"EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 1"	865	69	0	0	3
+C0812437	C1844678	Oculo-dento-digital syndrome	Progressive hearing loss stapes fixation	22	6	0	0	2
+C0043459	C4016757	Zellweger Syndrome	PEROXISOMAL BIOGENESIS DISORDER 3A (ZELLWEGER)	1068	0	0	0	2
+C3891103	C3891424	HEMOGLOBIN AICHI PHENOTYPE	HEMOGLOBIN J (SARDEGNA) PHENOTYPE	0	0	0	0	2
+C0398626	C4016986	Heparin cofactor II deficiency	"COMPLEMENT COMPONENT 4, PARTIAL DEFICIENCY OF, DUE TO DYSFUNCTIONAL C1 INHIBITOR"	162	2	0	0	1
+C1853833	C3714844	"Parkinson Disease 6, Autosomal Recessive Early-Onset"	"Pulmonary Hypertension, Primary, 1, With Hereditary Hemorrhagic Telangiectasia"	2	18	0	0	1
+C3889858	C4284511	HEMOGLOBIN RADCLIFFE PHENOTYPE	HEMOGLOBIN DIE PHENOTYPE	0	0	0	0	1
+C1834674	C2745959	Bethlem myopathy	"Spondyloepiphyseal dysplasia, congenita"	170	32	0	0	2
+C1834870	C3711371	MIRROR MOVEMENTS 1	Spastic Paraplegia Type 4	861	12	0	0	1
+C0020305	C0917713	Hydrops Fetalis	Becker Muscular Dystrophy	3289	11109	0	0	3
+C3891958	C4284249	HEMOGLOBIN I (INTERLAKEN) PHENOTYPE	HEMOGLOBIN OTTAWA PHENOTYPE	0	0	0	0	2
+C2751603	C3501643	"EPILEPSY, IDIOPATHIC GENERALIZED, SUSCEPTIBILITY TO, 10"	"Generalized Epilepsy With Febrile Seizures Plus, Type 5"	0	9	0	0	1
+C1282971	C4016327	"von Willebrand Disease, Type 2B"	PEN(a)/PEN(b) ALLOANTIGEN POLYMORPHISM	444	1	0	0	1
+C0265344	C0549473	Donohue Syndrome	Thyroid carcinoma	171	68555	0	0	1
+C4016172	C4285059	HEMOGLOBIN S (PROVIDENCE) PHENOTYPE	HEMOGLOBIN TSURUMAI PHENOTYPE	1	0	0	0	1
+C0039292	C1845028	Tangier Disease	"ANEMIA, SIDEROBLASTIC, AND SPINOCEREBELLAR ATAXIA"	742	9	0	0	3
+C4017471	C4017524	BETA-E-THALASSEMIA	HEMOGLOBIN DRENTHE PHENOTYPE	1	0	0	0	2
+C1275685	C3151186	Avellino corneal dystrophy	NEPHRONOPHTHISIS 12	111	86	0	0	1
+C3890764	C4311008	HEMOGLOBIN MADRID PHENOTYPE	HEMOGLOBIN HK	0	277	0	0	1
+C0005283	C3889901	beta Thalassemia	HEMOGLOBIN CAMPINAS PHENOTYPE	14284	0	0	0	3
+C1832903	C1837845	"MIGRAINE, SPORADIC HEMIPLEGIC"	"SICK SINUS SYNDROME 1, AUTOSOMAL RECESSIVE"	10	5	0	0	3
